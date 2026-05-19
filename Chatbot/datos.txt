@@ -1,0 +1,5 @@
+La CPU es el cerebro del ordenador y ejecuta instrucciones.
+La RAM almacena datos temporales mientras el equipo está encendido.
+Python es un lenguaje interpretado de alto nivel creado por Guido van Rossum.
+HTML estructura el contenido web, CSS lo estiliza y JavaScript le da interactividad.
+Los frameworks web como Django o Flask están escritos en Python.
