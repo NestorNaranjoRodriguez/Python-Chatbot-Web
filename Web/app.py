@@ -14,5 +14,10 @@ def chatbot():
     return render_template('chatbot.html')
 
 
+@app.route('/saludo')
+def saludo():
+    return 'Hola'
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
