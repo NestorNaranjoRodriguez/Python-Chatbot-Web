@@ -1,0 +1,89 @@
+{
+  "es": {
+    "welcome": "CHATBOT MULTILENGUAJE",
+    "prompt": "Tu: ",
+    "response_prefix": "IA: ",
+    "fallback": "No encontre informacion exacta. Prueba con otras palabras, pide un dato aleatorio o cambia de tema.",
+    "clear_msg": "Historial de chat limpiado.",
+    "history_msg": "Ultimas interacciones:",
+    "random_msg": "Dato aleatorio del tema actual:",
+    "credits_msg": "Chatbot Serpiente. Motor logico basado en reglas y contexto lexico.",
+    "help_title": "COMANDOS Y FUNCIONES DISPONIBLES:",
+    "commands_list": "- salir / exit: Cierra el programa\n- ayuda / help: Muestra esta guia\n- borrar / clear: Limpia el historial de chat\n- historial / history: Muestra las ultimas conversaciones\n- aleatorio / random: Muestra un dato curioso del tema actual\n- tema <nombre>: Cambia de tema (informatica, serpientes, coches)\n- idioma <codigo>: Cambia idioma (es, en, zh)",
+    "ui": {
+      "window_title": "Chatbot Serpiente",
+      "header": "CHATBOT MULTILENGUAJE",
+      "lang_label": "Idioma:",
+      "topic_label": "Tema:",
+      "send_btn": "Enviar",
+      "help_btn": "Ayuda",
+      "lang_options": ["Espanol", "English", "Chino"],
+      "topic_options": ["Informatica", "Serpientes", "Coches"]
+    },
+    "theme_intros": {
+      "informatica": "Bienvenido al area de Informatica. Puedes preguntar sobre lenguajes, hardware, redes o pedir ejemplos practicos.",
+      "serpientes": "Bienvenido al area de Serpientes. Consulta sobre especies, venenos, comportamiento o datos aleatorios.",
+      "coches": "Bienvenido al area de Coches. Pregunta sobre motores, transmisiones, seguridad o historia del automovil."
+    },
+    "languages": { "es": "Espanol", "en": "English", "zh": "Chino" },
+    "topics": { "informatica": "Informatica", "serpientes": "Serpientes", "coches": "Coches" }
+  },
+  "en": {
+    "welcome": "MULTILANGUAGE CHATBOT",
+    "prompt": "You: ",
+    "response_prefix": "AI: ",
+    "fallback": "I could not find exact info. Try rephrasing, ask for a random fact, or change topic.",
+    "clear_msg": "Chat history cleared.",
+    "history_msg": "Recent interactions:",
+    "random_msg": "Random fact from current topic:",
+    "credits_msg": "Snake Chatbot. Logic engine based on rules and lexical context.",
+    "help_title": "AVAILABLE COMMANDS AND FUNCTIONS:",
+    "commands_list": "- exit: Close the program\n- help: Show this guide\n- clear: Clear chat history\n- history: Show recent conversations\n- random: Show a curious fact from current topic\n- topic <name>: Change topic (it, snakes, cars)\n- language <code>: Change language (es, en, zh)",
+    "ui": {
+      "window_title": "Snake Chatbot",
+      "header": "MULTILANGUAGE CHATBOT",
+      "lang_label": "Language:",
+      "topic_label": "Topic:",
+      "send_btn": "Send",
+      "help_btn": "Help",
+      "lang_options": ["Spanish", "English", "Chinese"],
+      "topic_options": ["IT", "Snakes", "Cars"]
+    },
+    "theme_intros": {
+      "informatica": "Welcome to IT. Ask about languages, hardware, networks, or request practical examples.",
+      "serpientes": "Welcome to Snakes. Query about species, venom, behavior, or random facts.",
+      "coches": "Welcome to Cars. Ask about engines, transmissions, safety, or automotive history."
+    },
+    "languages": { "es": "Spanish", "en": "English", "zh": "Chinese" },
+    "topics": { "informatica": "IT", "serpientes": "Snakes", "coches": "Cars" }
+  },
+  "zh": {
+    "welcome": "多语言聊天机器人",
+    "prompt": "你: ",
+    "response_prefix": "AI: ",
+    "fallback": "未找到确切信息。请尝试其他措辞，要求随机事实，或更换主题。",
+    "clear_msg": "聊天历史已清除。",
+    "history_msg": "最近的互动:",
+    "random_msg": "当前主题的随机事实:",
+    "credits_msg": "蛇聊天机器人  项目。基于规则和词汇上下文的逻辑引擎。",
+    "help_title": "可用命令和功能:",
+    "commands_list": "- exit: 关闭程序\n- help: 显示此指南\n- clear: 清除聊天历史\n- history: 显示最近的对话\n- random: 显示当前主题的随机事实\n- topic <名称>: 更改主题 (it, snakes, cars)\n- language <代码>: 更改语言 (es, en, zh)",
+    "ui": {
+      "window_title": "蛇聊天机器人",
+      "header": "多语言聊天机器人",
+      "lang_label": "语言:",
+      "topic_label": "主题:",
+      "send_btn": "发送",
+      "help_btn": "帮助",
+      "lang_options": ["西班牙语", "英语", "中文"],
+      "topic_options": ["计算机", "蛇", "汽车"]
+    },
+    "theme_intros": {
+      "informatica": "欢迎来到计算机领域。您可以询问关于语言、硬件、网络或请求实际示例。",
+      "serpientes": "欢迎来到蛇类主题。查询关于物种、毒液、行为或随机事实。",
+      "coches": "欢迎来到汽车主题。询问关于发动机、变速器、安全或汽车历史。"
+    },
+    "languages": { "es": "西班牙语", "en": "英语", "zh": "中文" },
+    "topics": { "informatica": "计算机", "serpientes": "蛇", "coches": "汽车" }
+  }
+}

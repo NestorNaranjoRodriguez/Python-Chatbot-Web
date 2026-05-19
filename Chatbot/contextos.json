@@ -1,0 +1,98 @@
+{
+  "informatica": {
+    "es": [
+      "La CPU es el cerebro del ordenador y ejecuta instrucciones.",
+      "La RAM almacena datos temporales mientras el equipo esta encendido.",
+      "Python es un lenguaje interpretado de alto nivel creado por Guido van Rossum.",
+      "HTML estructura el contenido web, CSS lo estiliza y JavaScript le da interactividad.",
+      "Los frameworks web como Django o Flask estan escritos en Python.",
+      "Una libreria es un conjunto de funciones precompiladas que amplian las capacidades de Python.",
+      "Transformers es una libreria de Hugging Face para modelos de procesamiento de lenguaje natural.",
+      "NLP significa Natural Language Processing, permite a las maquinas comprender lenguaje humano."
+    ],
+    "en": [
+      "The CPU is the brain of the computer and executes instructions.",
+      "RAM stores temporary data while the computer is running.",
+      "Python is a high-level interpreted language created by Guido van Rossum.",
+      "HTML structures web content, CSS styles it, and JavaScript adds interactivity.",
+      "Web frameworks like Django or Flask are written in Python.",
+      "A library is a collection of precompiled functions that extend Python capabilities.",
+      "Transformers is a Hugging Face library for natural language processing models.",
+      "NLP stands for Natural Language Processing, enabling machines to understand human language."
+    ],
+    "zh": [
+      "CPU是计算机的大脑，负责执行指令。",
+      "RAM在计算机运行时存储临时数据。",
+      "Python是由Guido van Rossum创建的高级解释型语言。",
+      "HTML构建网页内容，CSS设置样式，JavaScript添加交互性。",
+      "Django和Flask等Web框架是用Python编写的。",
+      "库是一组预编译函数，用于扩展Python的功能。",
+      "Transformers是Hugging Face提供的自然语言处理模型库。",
+      "NLP代表自然语言处理，使机器能够理解人类语言。"
+    ]
+  },
+  "serpientes": {
+    "es": [
+      "Las serpientes son reptiles carnivoros sin extremidades.",
+      "Existen mas de 3000 especies de serpientes en el mundo.",
+      "Algunas serpientes son venenosas, como la cobra o la cascabel.",
+      "Las serpientes mudan su piel periodicamente para crecer.",
+      "Las serpientes detectan presas mediante el calor y las vibraciones.",
+      "La piton reticulada es una de las serpientes mas largas del mundo.",
+      "Las serpientes no tienen parpados, por lo que duermen con los ojos abiertos.",
+      "Muchas serpientes son oviparas, pero algunas son viviparas."
+    ],
+    "en": [
+      "Snakes are carnivorous reptiles without limbs.",
+      "There are over 3000 species of snakes in the world.",
+      "Some snakes are venomous, such as cobras or rattlesnakes.",
+      "Snakes shed their skin periodically to grow.",
+      "Snakes detect prey through heat and vibrations.",
+      "The reticulated python is one of the longest snakes in the world.",
+      "Snakes do not have eyelids, so they sleep with their eyes open.",
+      "Many snakes are oviparous, but some are viviparous."
+    ],
+    "zh": [
+      "蛇是无肢的肉食性爬行动物。",
+      "世界上有超过3000种蛇类。",
+      "有些蛇是有毒的，例如眼镜蛇或响尾蛇。",
+      "蛇会定期蜕皮以促进生长。",
+      "蛇通过热量和振动来探测猎物。",
+      "网纹蟒是世界上最长的蛇类之一。",
+      "蛇没有眼睑，所以睡觉时眼睛是睁开的。",
+      "许多蛇是卵生的，但有些是胎生的。"
+    ]
+  },
+  "coches": {
+    "es": [
+      "Un coche es un vehiculo automovil con motor de combustion o electrico.",
+      "Los primeros coches aparecieron a finales del siglo XIX.",
+      "Henry Ford popularizo el coche con el Modelo T en 1908.",
+      "Los coches electricos reducen las emisiones de CO2.",
+      "La transmision automatica cambia las marchas sin intervencion del conductor.",
+      "El sistema ABS evita que las ruedas se bloqueen al frenar.",
+      "Los hibridos combinan motor de gasolina con motor electrico.",
+      "El mantenimiento regular prolonga la vida util del vehiculo."
+    ],
+    "en": [
+      "A car is a motor vehicle with a combustion or electric engine.",
+      "The first cars appeared in the late 19th century.",
+      "Henry Ford popularized the car with the Model T in 1908.",
+      "Electric cars reduce CO2 emissions.",
+      "Automatic transmission shifts gears without driver intervention.",
+      "The ABS system prevents wheels from locking when braking.",
+      "Hybrids combine a gasoline engine with an electric motor.",
+      "Regular maintenance extends the vehicle lifespan."
+    ],
+    "zh": [
+      "汽车是配备内燃机或电动机的机动车辆。",
+      "最早的汽车出现在19世纪末。",
+      "亨利·福特在1908年通过T型车普及了汽车。",
+      "电动汽车可减少二氧化碳排放。",
+      "自动变速器无需驾驶员干预即可换挡。",
+      "ABS系统可防止刹车时车轮抱死。",
+      "混合动力车结合汽油发动机和电动机。",
+      "定期保养可延长车辆使用寿命。"
+    ]
+  }
+}
