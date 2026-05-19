@@ -13,10 +13,10 @@
       .hero{padding:48px;text-align:center;background:linear-gradient(180deg, #f6faf6, #fff)}
       .cards{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin:24px}
       .card{background:var(--muted);padding:18px;border-radius:8px;max-width:320px}
-      .gallery{display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:16px;margin:24px 20px}
+      .gallery{display:grid;grid-template-columns:repeat(3,minmax(180px,1fr));gap:16px;margin:24px 20px}
       .gallery-item{border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.08)}
-      .gallery-item img{width:100%;display:block;height:220px;object-fit:cover}
-      .gallery-item p{margin:0;padding:12px 14px;background:#f7f7f7;color:#0b3d0b;font-size:.95rem;line-height:1.4}
+      .gallery-item img{width:100%;display:block;height:180px;object-fit:contain;background:#111}
+      .gallery-item p{margin:0;padding:12px 14px;background:#f7f7f7;color:#0b3d0b;font-size:.95rem;line-height:1.4;font-style:italic}
       .resources{max-width:900px;margin:0 auto;padding:12px 20px;display:flex;gap:12px;flex-direction:column}
       .resource-list{display:flex;gap:12px;flex-wrap:wrap}
       .resource-list a{background:#fff;padding:10px 12px;border-radius:6px;text-decoration:none;color:var(--green);border:1px solid #e6e6e6}
@@ -44,33 +44,33 @@
 
       <section id="gallery" class="gallery">
         <div class="gallery-item">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Ophiophagus_hannah_%28King_Cobra%29.jpg" alt="Rey cobra en su hábitat natural" />
-          <p>Rey cobra — fuente: Wikimedia Commons</p>
+          <img src="/public/primera%20imagen.jpg" alt="Serpiente que juzga" />
+          <p>Serpiente que juzga</p>
         </div>
         <div class="gallery-item">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Green_tree_python_2.jpg" alt="Pitón verde en una rama" />
-          <p>Pitón verde — fuente: Wikimedia Commons</p>
+          <img src="/public/segundaimagen.jpeg" alt="Cobra pensativa" />
+          <p>Cobra pensativa</p>
         </div>
         <div class="gallery-item">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Crotalus_horridus.jpg" alt="Serpiente de cascabel sobre hojas" />
-          <p>Serpiente de cascabel — fuente: Wikimedia Commons</p>
+          <img src="/public/tercera%20imagen.jpg" alt="Serpiente híbrida" />
+          <p>Serpiente híbrida</p>
         </div>
       </section>
 
       <section id="about" class="cards">
         <div class="card">
           <h3>Especies</h3>
-          <p>Hay más de 3.000 especies de serpientes en todo el mundo, desde inofensivas hasta venenosas.</p>
+          <p>Existen por lo menos 3 especies de serpientes en el universo, puede que más.</p>
         </div>
 
         <div class="card">
           <h3>Hábitat</h3>
-          <p>Se adaptan a selvas, desiertos, praderas y ecosistemas acuáticos.</p>
+          <p>Las serpientes son capaces de colarse en cualquier hogar a través de aperturas y cañerías. Esto se debe a que no tienen manos con las que llamar al timbre.</p>
         </div>
 
         <div class="card">
           <h3>Curiosidades</h3>
-          <p>Las serpientes no tienen párpados móviles y muchas mudan la piel regularmente.</p>
+          <p>¿Sabías que las serpientes no saben leer? Tampoco han mostrado nunca mucho interés...</p>
         </div>
       </section>
 
