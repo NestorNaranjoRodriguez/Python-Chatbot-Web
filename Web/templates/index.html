@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Serpientes - Inicio</title>
+    <style>
+      :root{--green:#0b3d0b;--muted:#f7f7f7}
+      body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#222;line-height:1.45}
+      .site-header{background:var(--green);color:#fff;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+      .brand{font-weight:700;font-size:1.1rem}
+      nav a{color:#fff;margin-left:16px;text-decoration:none;font-weight:600}
+      .hero{padding:48px;text-align:center;background:linear-gradient(180deg, #f6faf6, #fff)}
+      .cards{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin:24px}
+      .card{background:var(--muted);padding:18px;border-radius:8px;max-width:320px}
+      .gallery{display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:16px;margin:24px 20px}
+      .gallery-item{border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.08)}
+      .gallery-item img{width:100%;display:block;height:220px;object-fit:cover}
+      .gallery-item p{margin:0;padding:12px 14px;background:#f7f7f7;color:#0b3d0b;font-size:.95rem;line-height:1.4}
+      .resources{max-width:900px;margin:0 auto;padding:12px 20px;display:flex;gap:12px;flex-direction:column}
+      .resource-list{display:flex;gap:12px;flex-wrap:wrap}
+      .resource-list a{background:#fff;padding:10px 12px;border-radius:6px;text-decoration:none;color:var(--green);border:1px solid #e6e6e6}
+      footer{padding:16px;text-align:center;background:#fafafa;border-top:1px solid #eee;margin-top:28px}
+      @media(max-width:960px){.gallery{grid-template-columns:repeat(2,minmax(220px,1fr))}}
+      @media(max-width:640px){.cards{flex-direction:column;align-items:center};.gallery{grid-template-columns:1fr;margin:24px 12px}}
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Serpientes</div>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="#resources">Recursos</a>
+        <a href="/chatbot">Chatbot</a>
+        <a href="#about">Sobre</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Bienvenido al mundo de las serpientes</h1>
+        <p>Una landing sencilla sobre biología, especies y curiosidades.</p>
+      </section>
+
+      <section id="gallery" class="gallery">
+        <div class="gallery-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Ophiophagus_hannah_%28King_Cobra%29.jpg" alt="Rey cobra en su hábitat natural" />
+          <p>Rey cobra — fuente: Wikimedia Commons</p>
+        </div>
+        <div class="gallery-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Green_tree_python_2.jpg" alt="Pitón verde en una rama" />
+          <p>Pitón verde — fuente: Wikimedia Commons</p>
+        </div>
+        <div class="gallery-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Crotalus_horridus.jpg" alt="Serpiente de cascabel sobre hojas" />
+          <p>Serpiente de cascabel — fuente: Wikimedia Commons</p>
+        </div>
+      </section>
+
+      <section id="about" class="cards">
+        <div class="card">
+          <h3>Especies</h3>
+          <p>Hay más de 3.000 especies de serpientes en todo el mundo, desde inofensivas hasta venenosas.</p>
+        </div>
+
+        <div class="card">
+          <h3>Hábitat</h3>
+          <p>Se adaptan a selvas, desiertos, praderas y ecosistemas acuáticos.</p>
+        </div>
+
+        <div class="card">
+          <h3>Curiosidades</h3>
+          <p>Las serpientes no tienen párpados móviles y muchas mudan la piel regularmente.</p>
+        </div>
+      </section>
+
+      <section id="resources" class="resources">
+        <h2>Enlaces útiles</h2>
+        <p>Algunos recursos para aprender más sobre serpientes:</p>
+        <div class="resource-list">
+          <a href="https://es.wikipedia.org/wiki/Serpiente" target="_blank" rel="noopener">Wikipedia — Serpiente</a>
+          <a href="https://www.nationalgeographic.com/animals/reptiles/facts/snakes" target="_blank" rel="noopener">National Geographic — Snakes (EN)</a>
+          <a href="https://www.pinterest.com/search/pins/?q=snake%20photography" target="_blank" rel="noopener">Pinterest — Fotos de serpientes</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>Serpientes</strong> — Aprendizaje y curiosidades • <a href="/chatbot">Ir al Chatbot</a>
+      </div>
+      <div style="margin-top:8px"><small>&copy; 2026 Demo</small></div>
+    </footer>
+  </body>
+</html>
