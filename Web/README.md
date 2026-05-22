@@ -5,9 +5,7 @@ Instrucciones rápidas para ejecutar la app localmente.
 1. Crear entorno virtual (Windows PowerShell):
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+pip install flask
 ```
 
 2. Ejecutar la aplicación:
