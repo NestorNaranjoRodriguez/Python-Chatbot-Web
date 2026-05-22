@@ -10,8 +10,6 @@ python Chatbot.py
 
 2. Comandos a ejecutar:
 
-```powershell
-
 ---
 
 ## Comandos Generales (Independientes del tema)
